@@ -1,0 +1,29 @@
+@import url('https://fonts.google.com/specimen/DotGothic16?preview.text_type=custom');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'DotGothic16', sans-serif;
+  /* font not working */
+}
+
+.home, 
+.blog, 
+.projects{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: 'DotGothic16', sans-serif;
+  background-color: #FFF0F5;
+} 
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #FEE8f2;
+  padding: 0;
+}
+
